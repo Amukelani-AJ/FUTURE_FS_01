@@ -10,12 +10,12 @@ export function HomePage() {
   return (
     <div>
       <NavBar />
-      <HeroImage />
-      <VantaBackground/>
+      <VantaBackground >
       <About />
       <Card />
       <Contact />
       <Footer />
+     </VantaBackground>
     </div>
   );
 }

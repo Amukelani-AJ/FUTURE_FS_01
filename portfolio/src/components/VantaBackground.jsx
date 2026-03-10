@@ -1,14 +1,23 @@
 import { useEffect, useRef } from "react";
-import RINGS from "vanta/dist/vanta.rings.min";
+import NET from "vanta/dist/vanta.net.min";
+import { Link } from "react-router-dom";
 import "./VantaBackground.css";
 
-export function VantaBackground() {
+export function VantaBackground({ children }) {
   const vantaRef = useRef(null);
 
   useEffect(() => {
-    const effect = RINGS({
+    const effect = NET({
       el: vantaRef.current,
-      THREE: window.THREE, 
+      THREE: window.THREE,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: 0xed1111,
     });
 
     return () => {
@@ -17,8 +26,8 @@ export function VantaBackground() {
   }, []);
 
   return (
-    <div className="app">
-      <div className="bg" ref={vantaRef} />
+    <div className="bg" ref={vantaRef}>
+      {children}
     </div>
   );
 }

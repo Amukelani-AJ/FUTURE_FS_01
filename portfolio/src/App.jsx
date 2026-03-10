@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route index element={<VantaBackground />} />
+        <Route index element={<HomePage />} />
         <Route path="project" element={<Project />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
