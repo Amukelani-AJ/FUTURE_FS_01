@@ -7,9 +7,7 @@ export function Contact() {
   return (
     <div>
       <NavBar />
-      <HeroImage2 heading="CONTACT" text="Contact me via email" />
-      <Form/>
-      <Footer />
+      <Form />
     </div>
   );
 }

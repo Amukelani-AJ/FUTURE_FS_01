@@ -1,45 +1,52 @@
- @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
- *{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Outfit", sans-serif;
- }
+}
 
- body{
+body {
   background: black;
- }
+}
 
- h1,h4,p,
- a{
-  color:white;
+h1,
+h4,
+p,
+a {
+  color: white;
   text-decoration: none;
- }
+}
 
- ul{
+ul {
   list-style-type: none;
- }
+}
 
- .btn {
+.btn {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248,217,15);
-  color:#222;
+  background: rgb(248, 217, 15);
+  color: #222;
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
- }
+}
 
- .btn-light {
+.btn-light {
   background: transparent;
-  color:#fff;
- }
+  color: #fff;
+}
 
- .btn:hover {
-  background: rgb(255,255,255,0.2);
+.btn:hover {
+  background: rgb(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3s;
- }
-
+}
+.card-container,
+.footer,
+form {
+  position: relative;
+  z-index: 1;
+}

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import NET from "vanta/dist/vanta.net.min";
+import GLOBE from "vanta/dist/vanta.globe.min";
 import { Link } from "react-router-dom";
 import "./VantaBackground.css";
 
@@ -7,7 +7,7 @@ export function VantaBackground({ children }) {
   const vantaRef = useRef(null);
 
   useEffect(() => {
-    const effect = NET({
+    const effect = GLOBE({
       el: vantaRef.current,
       THREE: window.THREE,
       mouseControls: true,
@@ -17,7 +17,6 @@ export function VantaBackground({ children }) {
       minWidth: 200.0,
       scale: 1.0,
       scaleMobile: 1.0,
-      color: 0xed1111,
     });
 
     return () => {
@@ -26,7 +25,20 @@ export function VantaBackground({ children }) {
   }, []);
 
   return (
-    <div className="bg" ref={vantaRef}>
+    <div className="hero">
+      <div className="bg" ref={vantaRef} />
+      <div className="content">
+        <p>Hi, Im a Full Stack Web developer</p>
+        <h1>Computer Science Graduate</h1>
+        <div>
+          <Link to="/project" className="btn">
+            Projects
+          </Link>
+          <Link to="/contact" className="btn btn-light">
+            Contact
+          </Link>
+        </div>
+      </div>
       {children}
     </div>
   );

@@ -4,6 +4,19 @@
   position: relative;
 }
 
+.bg canvas {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -1;
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+}
 .hero {
   height: 100%;
   width: 100%;
