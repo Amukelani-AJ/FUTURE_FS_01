@@ -1,19 +1,18 @@
 import "./ProjectCard.css";
-import project1 from "../assets/project1.png";
 import { NavLink } from "react-router-dom";
 
-export function ProjectCard() {
+export function ProjectCard({imgsrc,title,text,view}) {
   return (
     <div className="project-card">
-      <img src={project1} alt="Image" />
-      <h2 className="project-title">Project Title</h2>
+      <img src={imgsrc} alt="Image" />
+      <h2 className="project-title">{title}</h2>
       <div className="pro-details">
-        <p>The project details</p>
+        <p>{text}</p>
         <div className="pro-btns">
-          <NavLink to="url.com" className="btn">
+          <NavLink to={view} className="btn">
             View
           </NavLink>
-          <NavLink to="url.com" className="btn">
+          <NavLink to={view} className="btn">
             Source
           </NavLink>
         </div>

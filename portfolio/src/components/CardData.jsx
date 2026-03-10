@@ -2,7 +2,7 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 
-export const ProjectCardData = [
+export const CardData = [
   {
     imgsrc: project1,
     title: "Chatbot Project",
