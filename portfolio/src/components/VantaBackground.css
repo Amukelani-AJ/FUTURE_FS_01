@@ -3,28 +3,19 @@
   position: relative;
 }
 
-.bg canvas {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-  z-index: -1;
-}
-
 .hero {
   width: 100%;
   height: 100vh;
-  position: relative;
-  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .hero .content h1 {
-  font-size: 4rem;
+  font-size: 2.5rem; /* 👈 reduce from 4rem */
   padding: 0.6rem 0 1.5rem;
 }
 
@@ -46,7 +37,7 @@
   .hero .content p {
     font-size: 1.4rem;
   }
-}/*.bg {
+} /*.bg {
   width: 100%;
   min-height: 100vh;
   position: relative;
