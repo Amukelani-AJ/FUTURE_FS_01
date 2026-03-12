@@ -5,16 +5,8 @@ export function VantaBackground() {
   return (
     <div className="hero">
       <div className="content">
-        <p>Hi, Im a Full Stack Web developer</p>
-        <h1>BSc in IT in Computer Science and Informatics</h1>
-        <div>
-          <Link to="/project" className="btn">
-            Projects
-          </Link>
-          <Link to="/contact" className="btn btn-light">
-            Contact
-          </Link>
-        </div>
+        <h1>Hi,It's Amukelani</h1>
+        <h1>Full Stack Web Developer</h1>
       </div>
     </div>
   );

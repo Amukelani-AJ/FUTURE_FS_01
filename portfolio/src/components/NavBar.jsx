@@ -41,8 +41,23 @@ export function NavBar() {
         </li>
       </ul>
       <div className="nav-socials">
-        <FaLinkedin size={25} style={{ color: "#fff", marginRight: "1rem" }} />
-        <FaInstagram size={25} style={{ color: "#fff" }} />
+        <Link
+          to="https://www.linkedin.com/in/amukelanij"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin
+            size={25}
+            style={{ color: "#fff", marginRight: "1rem" }}
+          />
+        </Link>
+        <Link
+          to="https://www.instagram.com/amukelani.exe/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram size={25} style={{ color: "#fff" }} />
+        </Link>
       </div>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
