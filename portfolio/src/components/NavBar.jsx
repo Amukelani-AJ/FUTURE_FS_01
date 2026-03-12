@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./NavBar.css";
 import { useState, useEffect } from "react";
 
@@ -40,6 +40,10 @@ export function NavBar() {
           <Link to="contact">Contact</Link>
         </li>
       </ul>
+      <div className="nav-socials">
+        <FaLinkedin size={25} style={{ color: "#fff", marginRight: "1rem" }} />
+        <FaInstagram size={25} style={{ color: "#fff" }} />
+      </div>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
           <FaTimes size={20} style={{ color: "#fff" }} />

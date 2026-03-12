@@ -25,8 +25,8 @@ function App() {
           scale: 1.0,
           scaleMobile: 1.0,
           color: 0xff1414,
-          size: 0.6,
-          backgroundColor: 0x180055,
+          size: 0.5,
+          backgroundColor: 0x30820,
         });
       }
 
