@@ -1,51 +1,79 @@
-.project-heading {
-  text-align: center;
-  padding: 4rem 0 2rem 0;
-}
-
-.project-container {
-  max-width: 1140px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
-  padding-bottom: 5rem;
-}
 .card-container {
   position: relative;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 16px;
+  max-width: 1140px;
+  margin: 0 auto 100px auto;
+  padding: 50px;
+}
+
+.project-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  padding: 0 0 2rem 0;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .project-card {
-  background: #1a1919;
-  padding: 1.2rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 20, 20, 0.3);
+  border-radius: 10px;
+  padding: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: #ff1414;
+  background: rgba(255, 20, 20, 0.05);
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px rgba(255, 20, 20, 0.3);
 }
 
 .project-card img {
   width: 100%;
+  border-radius: 8px;
 }
+
 .project-title {
   color: #fff;
-  padding: 1rem 0;
+  padding: 1rem 0 0.5rem 0;
+  font-size: 1.1rem;
 }
+
 .pro-details {
   padding-bottom: 1rem;
-  font-size: 1.1rem;
-  text-align: justify;
+  font-size: 0.95rem;
+  color: #aaa;
+  line-height: 1.6;
 }
+
 .pro-btns {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0;
+  gap: 10px;
 }
 
 .pro-btns .btn {
   padding: 0.5rem 1rem;
+  flex: 1;
+  text-align: center;
 }
+
 @media screen and (max-width: 740px) {
   .project-container {
-    max-width: 90%;
-    margin: auto;
     grid-template-columns: 1fr;
+  }
+
+  .card-container {
+    padding: 30px 20px;
   }
 }

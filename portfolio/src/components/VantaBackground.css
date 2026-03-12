@@ -1,95 +1,67 @@
-.bg {
-  width: 100%;
-  position: relative;
-}
-
 .hero {
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  text-align: center;
+  padding-left: 8%;
   position: relative;
   z-index: 1;
 }
 
-.hero .content h1 {
-  font-size: 2.5rem; /* 👈 reduce from 4rem */
-  padding: 0.6rem 0 1.5rem;
+.content {
+  max-width: 550px;
 }
 
-.hero .content p {
-  font-size: 1.4rem;
-  font-weight: 200;
+.greeting {
+  font-size: 1.2rem;
+  color: #ff1414;
   text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
 }
 
-.content .btn {
-  margin: 1rem 0.2rem;
+.name {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.role {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #ff1414;
+  padding-left: 12px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 640px) {
-  .hero .content h1 {
-    font-size: 3rem;
+  .hero {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
-  .hero .content p {
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .role {
     font-size: 1.4rem;
   }
-} /*.bg {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
 }
-
-.bg canvas {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-  z-index: -1;
-}
-
-.hero {
-  position: relative;
-  z-index: 1;
-}
-.hero {
-  height: 100%;
-  width: 100%;
-}
-
-.hero .content {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  text-align: center;
-}
-
-.hero .content h1 {
-  font-size: 4rem;
-  padding: 0.6rem 0 1.5rem;
-}
-
-.hero .content p {
-  font-size: 1.4rem;
-  font-weight: 200;
-  text-transform: uppercase;
-}
-
-.content .btn {
-  margin: 1rem 0.2rem;
-}
-
-@media screen and (max-width: 640px) {
-  .hero .content h1 {
-    font-size: 3rem;
-  }
-
-  .hero .content p {
-    font-size: 1.4rem;
-  }
-}*/

@@ -11,10 +11,14 @@ export function HomePage() {
     <div style={{ position: "relative", zIndex: 1 }}>
       <NavBar />
       <VantaBackground />
-      <AboutMe/>
+      <AboutMe />
       <Skills />
-      <Card />
-      <Contact />
+      <div id="projects">
+        <Card />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
