@@ -10,7 +10,8 @@ export function VantaBackground() {
         <h2 className="role">Full Stack Web Developer</h2>
         <p className="description">
           I build clean, practical and user focused software solutions.
-          Passionate about web development, cloud computing and AI.
+          Passionate about web development, data engineering, cloud computing
+          and AI.
         </p>
         <div className="hero-btns">
           <a href="#projects" className="btn">

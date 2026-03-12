@@ -36,19 +36,6 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="right">
-          <h4>Socials</h4>
-          <div className="social">
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-          </div>
-        </div>
       </div>
     </div>
   );
