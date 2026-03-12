@@ -12,7 +12,7 @@ export function AboutMe() {
         <div className="about-card">
           <h3>Who I Am</h3>
           <p>
-            I'm passionate about building practical, user-focused software
+            I'm passionate about building practical, user focused software
             solutions. I enjoy turning ideas into reality through clean code,
             thoughtful design, and a problem-solving mindset.
           </p>
@@ -20,15 +20,15 @@ export function AboutMe() {
         <div className="about-card">
           <h3>What I Do</h3>
           <p>
-            My interest spans the full spectrum of software development — from
+            My interest spans the full spectrum of software development from
             frontend interfaces to backend logic. I'm particularly drawn to web
-            development, cloud computing, and artificial intelligence.
+            development, cloud computing, machine learning and artificial intelligence.
           </p>
         </div>
         <div className="about-card">
           <h3>Experience</h3>
           <p>
-            I've applied my skills in academic and real-world settings,
+            I've applied my skills in academic and real world settings,
             including leading a team to develop a film production management
             system and working on live projects through my current internship.
           </p>

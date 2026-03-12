@@ -1,6 +1,8 @@
 .about-section {
   padding: 50px;
-  background-color: rgba(19, 19, 19, 0.8);
+  /* background-color: rgba(19, 19, 19, 0.8);*/
+  background-color: rgb(0, 0, 0, 0.8);
+
   border-radius: 16px;
   max-width: 1140px;
   margin: 0 auto 100px auto;
