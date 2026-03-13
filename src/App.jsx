@@ -1,8 +1,7 @@
 import "./App.css";
-import { Project } from "./pages/Project";
-import { About } from "./pages/About";
+
 import { HomePage } from "./pages/HomePage";
-import { Contact } from "./pages/Contact";
+
 import { Route, Routes } from "react-router-dom";
 import { useEffect, useRef } from "react";
 
@@ -60,9 +59,6 @@ function App() {
       <div style={{ position: "relative", zIndex: 1 }}>
         <Routes>
           <Route index element={<HomePage />} />
-          <Route path="project" element={<Project />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
     </>

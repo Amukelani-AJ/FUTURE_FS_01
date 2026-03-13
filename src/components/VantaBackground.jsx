@@ -14,12 +14,26 @@ export function VantaBackground() {
           and AI.
         </p>
         <div className="hero-btns">
-          <a href="#projects" className="btn">
+          <button
+            className="btn"
+            onClick={() =>
+              document
+                .getElementById("projects")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
             View Projects
-          </a>
-          <a href="#contact" className="btn btn-light">
+          </button>
+          <button
+            className="btn btn-light"
+            onClick={() =>
+              document
+                .getElementById("contact")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
             Contact Me
-          </a>
+          </button>
         </div>
       </div>
     </div>

@@ -28,16 +28,24 @@ export function NavBar() {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <a href="/">Home</a>
+          <button onClick={() => scrollTo("home")} className="nav-btn">
+            Home
+          </button>
         </li>
         <li>
-          <a href="#about">About</a>
+          <button onClick={() => scrollTo("about")} className="nav-btn">
+            About
+          </button>
         </li>
         <li>
-          <a href="#projects">Project</a>
+          <button onClick={() => scrollTo("projects")} className="nav-btn">
+            Project
+          </button>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <button onClick={() => scrollTo("contact")} className="nav-btn">
+            Contact
+          </button>
         </li>
       </ul>
       <div className="nav-socials">
