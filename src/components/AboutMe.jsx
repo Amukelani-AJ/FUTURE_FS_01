@@ -14,7 +14,7 @@ export function AboutMe() {
           <p>
             I'm passionate about building practical, user focused software
             solutions. I enjoy turning ideas into reality through clean code,
-            thoughtful design, and a problem-solving mindset.
+            thoughtful design, and a problem solving mindset.
           </p>
         </div>
         <div className="about-card">
@@ -22,7 +22,8 @@ export function AboutMe() {
           <p>
             My interest spans the full spectrum of software development from
             frontend interfaces to backend logic. I'm particularly drawn to web
-            development, cloud computing, machine learning and artificial intelligence.
+            development, cloud computing, machine learning and artificial
+            intelligence.
           </p>
         </div>
         <div className="about-card">
