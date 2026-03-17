@@ -13,6 +13,7 @@ export function Card() {
               title={value.title}
               text={value.text}
               view={value.view}
+              src={value.src}
             />
           );
         })}

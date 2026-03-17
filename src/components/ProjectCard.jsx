@@ -1,5 +1,4 @@
 import "./ProjectCard.css";
-import { NavLink } from "react-router-dom";
 
 export function ProjectCard({ imgsrc, title, text, view, src }) {
   return (
@@ -9,12 +8,22 @@ export function ProjectCard({ imgsrc, title, text, view, src }) {
       <div className="pro-details">
         <p>{text}</p>
         <div className="pro-btns">
-          <NavLink to={view} className="btn">
+          <a
+            href={view}
+            target="_blank"
+            rel="noreferrer"
+            className={`btn ${!view ? "btn-disabled" : ""}`}
+          >
             View
-          </NavLink>
-          <NavLink to={src} className="btn">
+          </a>
+          <a
+            href={src}
+            target="_blank"
+            rel="noreferrer"
+            className={`btn ${!src ? "btn-disabled" : ""}`}
+          >
             Source
-          </NavLink>
+          </a>
         </div>
       </div>
     </div>

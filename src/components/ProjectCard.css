@@ -67,6 +67,11 @@
   flex: 1;
   text-align: center;
 }
+.btn-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 
 @media screen and (max-width: 740px) {
   .project-container {
