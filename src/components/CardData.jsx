@@ -6,6 +6,12 @@ export const CardData = [
     imgsrc: miniCRM,
     title: "mini CRM",
     text: "Internship task 2 (In progress.....): Building a CRM to manage client leads generated from website contact forms",
+    view: "https://amukelani-aj.github.io/Tasko/",
+  },
+  {
+    imgsrc: miniCRM,
+    title: "mini CRM",
+    text: "Internship task 2 (In progress.....): Building a CRM to manage client leads generated from website contact forms",
     view: "",
   },
   {
