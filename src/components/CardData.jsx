@@ -1,11 +1,12 @@
 import project3 from "../assets/project3.png";
 import miniCRM from "../assets/miniCRM.png";
+import tasko from "../assets/Tasko.png";
 
 export const CardData = [
   {
-    imgsrc: miniCRM,
+    imgsrc: tasko,
     title: "mini CRM",
-    text: "Internship task 2 (In progress.....): Building a CRM to manage client leads generated from website contact forms",
+    text: "Tasko is a productivity web app that helps you manage tasks smarter using AI. Built with React, TypeScript, and the Anthropic Claude API, it demonstrates a modern fullstack frontend with real AI integration",
     view: "https://amukelani-aj.github.io/Tasko/",
   },
   {
