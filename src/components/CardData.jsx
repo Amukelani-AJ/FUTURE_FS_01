@@ -5,9 +5,10 @@ import tasko from "../assets/Tasko.png";
 export const CardData = [
   {
     imgsrc: tasko,
-    title: "mini CRM",
+    title: "Tasko",
     text: "Tasko is a productivity web app that helps you manage tasks smarter using AI. Built with React, TypeScript, and the Anthropic Claude API, it demonstrates a modern fullstack frontend with real AI integration",
     view: "https://amukelani-aj.github.io/Tasko/",
+    srs: "https://github.com/Amukelani-AJ/Tasko",
   },
   {
     imgsrc: miniCRM,

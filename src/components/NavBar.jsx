@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes, FaLinkedin, FaInstagram } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaLinkedin,
+  FaInstagram,
+  FaGithub,
+} from "react-icons/fa";
 import "./NavBar.css";
 import { useState, useEffect } from "react";
 

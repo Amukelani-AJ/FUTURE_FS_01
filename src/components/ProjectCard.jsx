@@ -1,7 +1,7 @@
 import "./ProjectCard.css";
 import { NavLink } from "react-router-dom";
 
-export function ProjectCard({ imgsrc, title, text, view }) {
+export function ProjectCard({ imgsrc, title, text, view, src }) {
   return (
     <div className="project-card">
       <img src={imgsrc} alt="Image" />
@@ -12,7 +12,7 @@ export function ProjectCard({ imgsrc, title, text, view }) {
           <NavLink to={view} className="btn">
             View
           </NavLink>
-          <NavLink to="https://github.com/Amukelani-AJ/Tasko" className="btn">
+          <NavLink to={src} className="btn">
             Source
           </NavLink>
         </div>
