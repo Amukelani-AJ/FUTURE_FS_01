@@ -63,13 +63,6 @@ export function NavBar() {
             style={{ color: "#fff", marginRight: "1rem" }}
           />
         </Link>
-        <Link
-          to="https://www.instagram.com/amukelani.exe/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaInstagram size={25} style={{ color: "#fff" }} />
-        </Link>
       </div>
       <div className="hamburger" onClick={handleClick}>
         {click ? (

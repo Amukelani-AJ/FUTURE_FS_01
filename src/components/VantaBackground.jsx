@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./VantaBackground.css";
+import resume from "../assets/Amu_Final.pdf";
 
 export function VantaBackground() {
   return (
@@ -34,6 +35,14 @@ export function VantaBackground() {
           >
             Contact Me
           </button>
+          <a
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-resume"
+          >
+            View Resume
+          </a>
         </div>
       </div>
     </div>
